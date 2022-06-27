@@ -5,7 +5,7 @@
 </p>
 
 <p align="left">
-  🐧 Ling/HT: <strong>Linux > Shell Scripts > MTAs, Db Servers, HTTP Server, Proxy, HA, Load Balance, Cluster, Containers</strong>
+  🐧 <strong>Linux > Shell Scripts > MTAs, Db Servers, HTTP Server, Proxy, HA, Load Balance, Cluster, Paravirtualização, Containers, Firewall</strong>
 </p>
 
 <p align="left">
