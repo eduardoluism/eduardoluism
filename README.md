@@ -1,30 +1,91 @@
-<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DrCloud - Perfil Profissional</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968804.png" type="image/png">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
 
-<p align="left"> 
-  Trabalhando a mais de 15 anos com TI, experiencia sólida em servidores <b>Linux</b> muito antes da ☁
-</p>
+    .container {
+      max-width: 600px;
+      background: #1e293b;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.3);
+    }
 
-<p align="left">
-  🐧 <strong>Linux > Shell Scripts > MTAs, Db Servers, HTTP Server, Proxy, HA, Load Balance, Cluster, Paravirtualização, Containers, Firewall</strong>
-</p>
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
 
-<p align="left">
-  💌 Disponível para contato em ⤵️
-</p>
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #cbd5e1;
+    }
 
-<p align="left">
-  <a href="mailto:eduardo@miliorini.com.br" alt="Gmail">
-  <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=" /></a>
+    .contact {
+      margin-top: 30px;
+    }
 
-  <a href="#" alt="Linkedin">
-  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN" /></a>
+    .telegram-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      color: #38bdf8;
+      font-weight: bold;
+      font-size: 1rem;
+      border: 1px solid #38bdf8;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
 
-  <a href="https://api.whatsapp.com/send?phone=5547988357848" alt="WhatsApp">
-  <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=" /></a>
+    .telegram-link:hover {
+      background: #38bdf8;
+      color: #0f172a;
+    }
 
-  <a href="#" alt="Facebook">
-  <img src="https://img.shields.io/badge/-Facebook-3b5998?style=flat-square&labelColor=3b5998&logo=facebook&logoColor=white&link=LINK-DO-SEU-FACEBOOK" /></a>
+    .telegram-link img {
+      width: 20px;
+      height: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>DrCloud</h1>
+    <p>Profissional com mais de 20 anos de experiência em Tecnologia da Informação.<br>
+    Atuação sólida em:</p>
+    <ul style="list-style: none; padding: 0; color: #94a3b8;">
+      <li>🖥️ Linux & Servidores</li>
+      <li>☁️ Computação em Nuvem (Cloud)</li>
+      <li>💻 Programação</li>
+      <li>🎨 Design Digital</li>
+    </ul>
 
-  <a href="https://www.instagram.com/eduar.do.mi/" alt="Instagram">
-  <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=" /></a>
-</p>  
+    <div class="contact">
+      <a href="https://t.me/drcloud8" class="telegram-link" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
+        Fale comigo no Telegram
+      </a>
+    </div>
+  </div>
+</body>
+</html>
